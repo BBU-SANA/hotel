@@ -14,8 +14,7 @@
   <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>assets/css/materialize.min.css" media="screen,projection"
   />
   <!-- Custom main css -->
-  <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>assets/css/main.css" media="screen,projection" />
-  <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>assets/style.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>assets/css/main-style.css" media="screen,projection" />
 </head>
 
 <body>
@@ -117,11 +116,11 @@
               <p class="flow-text"><a href="/custom-domains">Custom Domains</a><i class="mdi-navigation-check"></i></p>
             </div>
             <a href="#create" class="btn btn-large create-list-link">Get Started <svg style="width:24px;height:24px;top: 6px; position: relative; right: 2px;" viewBox="0 0 24 24">
-<path fill="#ffffff" d="M5.59,7.41L7,6L13,12L7,18L5.59,16.59L10.17,12L5.59,7.41M11.59,7.41L13,6L19,12L13,18L11.59,16.59L16.17,12L11.59,7.41Z" />
-</svg>
+            <path fill="#ffffff" d="M5.59,7.41L7,6L13,12L7,18L5.59,16.59L10.17,12L5.59,7.41M11.59,7.41L13,6L19,12L13,18L11.59,16.59L16.17,12L11.59,7.41Z" />
+            </svg>
 
 
-</a>
+            </a>
           </div>
 
           <!--   Icon Section   -->
@@ -133,6 +132,12 @@
         </div>
 
       </div>
+  </section>
+
+  <section>
+    <div class="img-footer">
+      <img src="http://www.princessangkorhotel.com/userfiles/bg-footer-content(1).png">
+    </div>
   </section>
 
   <footer class="page-footer teal">
@@ -174,7 +179,6 @@
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/materialize.min.js"></script>
-  <script type="text/javascript" src="<?php echo base_url(); ?>assets/grayscale.js"></script>
   <!-- Custom jQuery -->
   <script type="text/javascript">
       $( document ).ready(function(){

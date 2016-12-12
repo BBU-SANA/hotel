@@ -43,11 +43,8 @@ p {
 }
 .icon-block .material-icons {
   font-size: inherit;
-}
-
-footer.page-footer {
-  margin: 0;
 }*/
+
 
 .welcome-message {
   margin: auto;
@@ -61,4 +58,19 @@ footer.page-footer {
   margin: auto;
   padding: 12px 20px 53px;
   width: 330px;
+}
+
+.img-footer {
+  margin-bottom: -10px;
+  border-bottom: 4px outset teal;
+}
+
+.img-footer img {
+  width: 100%;
+  height: 100%;
+
+}
+
+footer.page-footer {
+  margin: 0px;
 }
