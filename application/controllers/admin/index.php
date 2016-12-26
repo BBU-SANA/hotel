@@ -19,7 +19,7 @@ class Index extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('pages/home');
-		$this->output->set_title('Hotel & Travel');
+		$this->output->set_title('Administator');
 	}
 
 	public function example_1()
