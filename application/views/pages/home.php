@@ -10,7 +10,7 @@
           <h5 class="header col s12 light">The best service at the lowest price</h5>
         </div>
         <div class="row center">
-          <a href="#" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Start Booking</a>
+          <a href="<?php echo base_url();?>signin" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Start Booking</a>
         </div>
         <br><br>
       </div>

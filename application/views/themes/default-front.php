@@ -10,6 +10,8 @@
   </title>
   <!--Import Google Icon Font-->
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Font awesome icon -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>assets/css/materialize.min.css" media="screen,projection"
   />
@@ -47,7 +49,7 @@
   <header>
     <nav class="white">
       <div class="nav-wrapper container">
-        <a href="#!" class="brand-logo">Logo</a>
+        <a href="<?php echo base_url();?>" class="brand-logo">Logo</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
           <li><a href="#">Home</a></li>
@@ -56,7 +58,7 @@
           <li><a href="#">Locations</a></li>
           <li><a href="#">Gallery</a></li>
           <li><a href="#">Contact</a></li>
-          <li><a class="waves-effect waves-light btn">Sign In</a></li>
+          <li><a class="waves-effect waves-light btn" href="<?php echo base_url();?>signin">Sign In</a></li>
         </ul>
         <ul class="side-nav" id="mobile-demo">
           <li><a href="#">Home</a></li>
@@ -105,7 +107,7 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-        Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+        &copy; 2016 Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">BBU Students</a>
       </div>
     </div>
   </footer>
