@@ -8,7 +8,7 @@
       <div class="row" style="margin: auto; width: 300px;">
         <!-- sign up with social media -->
         <div class="row">
-          <a class="col s12 waves-effect waves-light btn-large blue darken-4"><i class="fa fa-facebook left"></i>CONTINUE WITH FACEBOOK</a>
+          <a class="col s12 waves-effect waves-light btn-large blue darken-4"><i class="fa fa-facebook left"></i>continue with facebook</a>
         </div>
         <!-- sign in with email register -->
         <form class="row">
